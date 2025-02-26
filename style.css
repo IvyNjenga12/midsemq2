@@ -1,25 +1,31 @@
 /* General Page Styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f5f0;
+    color: #333;
+    text-align: center;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    text-align: center;
 }
 
 /* Header Styling */
 header {
-    background-color: #ff6347;
+    background-color: #8b0000;
     color: white;
     padding: 20px;
+    font-size: 24px;
 }
 
-/* Navigation Styling */
+/* Navigation Bar */
+nav {
+    background-color: #fff;
+    padding: 10px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 nav ul {
     list-style: none;
     padding: 0;
-    background-color: #333;
-    margin: 0;
 }
 
 nav ul li {
@@ -28,27 +34,54 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
     text-decoration: none;
+    color: #8b0000;
     font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
 }
 
 /* Main Content */
-.welcome {
-    margin: 20px;
+main {
+    padding: 40px;
 }
 
-.welcome img {
-    width: 300px;
+.welcome p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.5;
+}
+
+/* Image */
+img {
+    width: 200px;
     height: auto;
-    margin-top: 15px;
-    border: 2px solid #333;
+    border: 3px solid #8b0000;
+    border-radius: 10px;
+    margin-top: 20px;
 }
 
-/* Footer Styling */
+/* Menu Styling */
+.menu-list {
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+}
+
+.menu-list li {
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* Footer */
 footer {
     background-color: #333;
     color: white;
-    padding: 10px;
+    padding: 15px;
     margin-top: 20px;
+    font-size: 14px;
 }
